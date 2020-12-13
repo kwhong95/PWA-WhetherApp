@@ -8,3 +8,15 @@
   - **await** axios.get(URL, { structured data })
     + URL = OPEN API
     + API_KEY
+
+
+## STEP 2. Get Weather's Data 
+ 1. State => query, weather (REACT Hook)
+ 2. search = **async** => **await** fetchWeather
+  - setWeather(data) & SetQuery('') => ReSet
+ 3. Logic ?  weather.main && Weather's Card 
+  - City's name
+  - Temp => <sup>&deg;C</sup>
+  - Img => Icon
+  - description
+  
